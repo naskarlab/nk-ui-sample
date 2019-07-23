@@ -1,0 +1,27 @@
+{
+  "candies": [
+    {
+      "name": "nk-ui",
+      "version": "0.0.1",
+      "lastUpdateTimestamp": 1563846126000,
+      "modelVersion": "unknown",
+      "transpilerVersion": "${jsweet.transpiler.version}",
+      "jsOutputDirPath": "E:\\rp\\wsjteste\\nk-ui-sample\\.jsweet\\candies\\js",
+      "jsDirPath": "META-INF/resources/webjars/nk-ui/0.0.1",
+      "jsFilesPaths": [
+        "META-INF/resources/webjars/nk-ui/0.0.1/.tsc-rootfile.js",
+        "META-INF/resources/webjars/nk-ui/0.0.1/bundle.js"
+      ]
+    },
+    {
+      "name": "jsweet-core",
+      "version": "6.0.2-SNAPSHOT",
+      "lastUpdateTimestamp": 1561300062000,
+      "modelVersion": "unknown",
+      "transpilerVersion": "${jsweet.transpiler.version}",
+      "jsOutputDirPath": "E:\\rp\\wsjteste\\nk-ui-sample\\.jsweet\\candies\\js",
+      "jsDirPath": "META-INF/resources/webjars/jsweet-core/6.0.2-SNAPSHOT",
+      "jsFilesPaths": []
+    }
+  ]
+}

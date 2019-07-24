@@ -1,0 +1,1 @@
+web: java -jar nk-ui-sample.jar

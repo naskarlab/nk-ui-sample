@@ -8,7 +8,7 @@ The basic concept is create components using directly DOM API on client-side, bu
 
 ![UI](/docs/nk-ui-sample_login.png)
 
-## See working with Gitpod
+## See it working with Gitpod
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#snapshot/f9ce1083-5a3f-40d6-92e2-af9038faaabb)
 

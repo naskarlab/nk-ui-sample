@@ -30,7 +30,7 @@
 			<version>${jsweet.version}</version>
 			<scope>provided</scope>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>com.naskar</groupId>
 			<artifactId>nk-ui</artifactId>
@@ -76,6 +76,14 @@
 			<name>libs-snapshot</name>
 			<url>http://repository.jsweet.org/artifactory/libs-snapshot-local</url>
 		</repository>
+        <repository>
+           <snapshots>
+               <enabled>false</enabled>
+           </snapshots>
+           <id>bintray-rafaeluchoanaskar-naskarlab</id>
+           <name>bintray</name>
+           <url>https://dl.bintray.com/rafaeluchoanaskar/naskarlab</url>
+       </repository>
 	</repositories>
 	<build>
 		<plugins>
@@ -115,7 +123,7 @@
 						<configuration>
 							<target>
 								<delete dir="${project.build.outputDirectory}/dependency-maven-plugin-markers" verbose="true" />
-							</target>					
+							</target>
 						</configuration>
 						<goals>
 							<goal>run</goal>
@@ -162,8 +170,23 @@
 					</execution>
 				</executions>
 			</plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>1.2.1</version>
+                <executions>
+                    <execution>
+                    <goals>
+                        <goal>java</goal>
+                    </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <mainClass>app.bk.Main</mainClass>
+                </configuration>
+            </plugin>
 		</plugins>
-				<pluginManagement>
+		<pluginManagement>
 			<plugins>
 				<plugin>
 					<groupId>org.eclipse.m2e</groupId>
@@ -199,5 +222,5 @@
 		</pluginManagement>
 
 	</build>
-	
+
 </project>

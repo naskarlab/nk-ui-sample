@@ -12,6 +12,6 @@ The basic concept is create components using directly DOM API on client-side, bu
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#snapshot/f9ce1083-5a3f-40d6-92e2-af9038faaabb)
 
-´´´
+```
 mvn clean generate-sources install exec:java
-´´´
+```

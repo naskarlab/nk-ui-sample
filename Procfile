@@ -1,1 +1,1 @@
-web: java -jar nk-ui-sample.jar
+web: mvn exec:java

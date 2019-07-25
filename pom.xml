@@ -190,6 +190,7 @@
 				<artifactId>heroku-maven-plugin</artifactId>
 				<version>2.0.10</version>
 				<configuration>
+					<appName>nk-ui-sample</appName>
 					<processTypes>
 						<web>java $JAVA_OPTS -cp target/classes:target/dependency/* app.bk.Main</web>
 					</processTypes>

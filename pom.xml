@@ -185,6 +185,10 @@
                     <mainClass>app.bk.Main</mainClass>
                 </configuration>
             </plugin>
+            <!-- 
+            	https://nk-ui-sample.herokuapp.com/
+            	mvn clean generate-sources heroku:deploy 
+            -->
 			<plugin>
 				<groupId>com.heroku.sdk</groupId>
 				<artifactId>heroku-maven-plugin</artifactId>
